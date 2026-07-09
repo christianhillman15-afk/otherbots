@@ -92,30 +92,32 @@
 }
 
 /* ---------- IMAGE TOKENS ----------
-   Placeholder photography from Unsplash. Swap these URLs for Fellas'
-   own images before launch (each sits on a dark gradient so a failed
-   load still degrades gracefully). */
+   Photography is bundled locally in assets/img/ so the site is fully
+   self-contained (loads offline, no external dependencies). Swap these
+   files for Fellas' own photography before launch — keep the filenames
+   and the whole site updates. Each image also sits on a dark gradient
+   so any missing file still degrades gracefully. */
 :root {
-  --img-hero:        url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1920&q=80");
-  --img-story:       url("https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1100&q=80");
-  --img-ambiance:    url("https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1920&q=80");
-  --img-cta:         url("https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=1920&q=80");
+  --img-hero:        url("../img/barber-cut.jpg");
+  --img-story:       url("../img/grooming.jpg");
+  --img-ambiance:    url("../img/interior.jpg");
+  --img-cta:         url("../img/neon.jpg");
 
-  --img-g1: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80");
-  --img-g2: url("https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=900&q=80");
-  --img-g3: url("https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80");
-  --img-g4: url("https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1400&q=80");
-  --img-g5: url("https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=900&q=80");
-  --img-g6: url("https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=900&q=80");
+  --img-g1: url("../img/barber-cut.jpg");
+  --img-g2: url("../img/shave.jpg");
+  --img-g3: url("../img/grooming.jpg");
+  --img-g4: url("../img/interior.jpg");
+  --img-g5: url("../img/neon.jpg");
+  --img-g6: url("../img/apparel.jpg");
 
-  --img-apparel:     url("https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=700&q=80");
-  --img-grooming:    url("https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=700&q=80");
-  --img-footwear:    url("https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?auto=format&fit=crop&w=700&q=80");
-  --img-accessories: url("https://images.unsplash.com/photo-1509941943102-10c1ad96693f?auto=format&fit=crop&w=700&q=80");
+  --img-apparel:     url("../img/apparel.jpg");
+  --img-grooming:    url("../img/shave.jpg");
+  --img-footwear:    url("../img/footwear.jpg");
+  --img-accessories: url("../img/accessories.jpg");
 
-  --img-t1: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=80");
-  --img-t2: url("https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=700&q=80");
-  --img-t3: url("https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=80");
+  --img-t1: url("../img/barber-cut.jpg");
+  --img-t2: url("../img/grooming.jpg");
+  --img-t3: url("../img/interior.jpg");
 
   /* service hover previews (desktop) */
   --img-signature: var(--img-g1);
